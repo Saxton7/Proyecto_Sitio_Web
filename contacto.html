@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsCars MX - Contacto</title>
+
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-accent">Sports</span>Cars MX
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO CONTACTO -->
+    <header class="hero-section d-flex align-items-center">
+        <div class="container text-white">
+            <h1 class="fw-bold mb-3">Contacto</h1>
+            <p class="lead mb-0">
+                Envíanos tus dudas, comentarios o solicita una cotización personalizada.
+            </p>
+        </div>
+    </header>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section class="py-5 bg-black text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <h2 class="section-title mb-3">Información de contacto</h2>
+                    <p class="section-subtitle mb-3">
+                        Esta sección es solo de ejemplo. Puedes adaptar los datos para tu propia marca o proyecto.
+                    </p>
+                    <ul class="list-unstyled contact-info">
+                        <li>📍 Ciudad de México, MX</li>
+                        <li>📞 +52 55 0000 0000</li>
+                        <li>✉️ contacto@sportscarsmx.com</li>
+                        <li>⏰ Lunes a Viernes de 9:00 a 18:00 hrs</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="card contact-card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Envíanos un mensaje</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="correo" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="correo" placeholder="tucorreo@ejemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="asunto" class="form-label">Asunto</label>
+                                    <input type="text" class="form-control" id="asunto" placeholder="Cotización, duda, comentario, etc.">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <textarea id="mensaje" class="form-control" rows="4" placeholder="Cuéntanos qué estás buscando"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-accent w-100">Enviar mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-3 bg-dark text-center text-muted small">
+        <div class="container">
+            <span>© 2025 SportsCars MX. Página de contacto de demostración.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

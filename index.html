@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsCars MX - Inicio</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR (misma en todas las páginas) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html">
+                <span class="text-accent">Sports</span>Cars MX
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO INICIO -->
+    <header class="hero-section d-flex align-items-center">
+        <div class="container text-center text-white">
+            <p class="text-uppercase small mb-2 tracking">Performance • Diseño • Tecnología</p>
+            <h1 class="display-4 fw-bold mb-3">La tienda online de autos deportivos más exclusiva</h1>
+            <p class="lead mb-4">
+                Explora modelos de alto rendimiento, compara especificaciones y arma el garage de tus sueños.
+            </p>
+            <a href="productos.html" class="btn btn-accent btn-lg me-2">Ver productos</a>
+            <a href="carrito.html" class="btn btn-outline-light btn-lg">Ver carrito</a>
+        </div>
+    </header>
+
+    <!-- SECCIÓN DESTACADOS -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Modelos destacados</h2>
+                <p class="section-subtitle">
+                    Algunos de los superdeportivos más populares entre nuestros clientes.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Modelo 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card-modelo">
+                        <img src="https://via.placeholder.com/600x350?text=Apex+GT-R" class="card-img-top" alt="Apex GT-R">
+                        <div class="card-body">
+                            <h5 class="card-title">Apex GT-R</h5>
+                            <p class="card-text">Potencia brutal y tracción total para dominar cualquier pista.</p>
+                            <ul class="list-unstyled small specs-list">
+                                <li>🏁 0–100 km/h: 2.9 s</li>
+                                <li>⚙️ 720 hp</li>
+                                <li>💰 Desde $6,500,000 MXN</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="productos.html" class="btn btn-outline-accent w-100">Ver más detalles</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modelo 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card-modelo">
+                        <img src="https://via.placeholder.com/600x350?text=Velocidad+RS" class="card-img-top" alt="Velocidad RS">
+                        <div class="card-body">
+                            <h5 class="card-title">Velocidad RS</h5>
+                            <p class="card-text">Ligero, preciso y con diseño aerodinámico para el máximo control.</p>
+                            <ul class="list-unstyled small specs-list">
+                                <li>🏁 0–100 km/h: 3.2 s</li>
+                                <li>⚙️ 610 hp</li>
+                                <li>💰 Desde $5,200,000 MXN</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="productos.html" class="btn btn-outline-accent w-100">Ver más detalles</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modelo 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card-modelo">
+                        <img src="https://via.placeholder.com/600x350?text=Thunder+V12" class="card-img-top" alt="Thunder V12">
+                        <div class="card-body">
+                            <h5 class="card-title">Thunder V12</h5>
+                            <p class="card-text">Un clásico moderno con un sonido inconfundible y presencia única.</p>
+                            <ul class="list-unstyled small specs-list">
+                                <li>🏁 0–100 km/h: 2.7 s</li>
+                                <li>⚙️ 780 hp</li>
+                                <li>💰 Desde $7,800,000 MXN</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="productos.html" class="btn btn-outline-accent w-100">Ver más detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-3 bg-dark text-center text-muted small">
+        <div class="container">
+            <span>© 2025 SportsCars MX. Proyecto de ejemplo con HTML, CSS y Bootstrap.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
